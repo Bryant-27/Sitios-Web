@@ -1,0 +1,109 @@
+div{width:300px;height:200px;margin:20px;
+	display:inline-block;
+	border:1px solid #000;
+}
+.colombia{
+	background-image:linear-gradient(yellow 33%, blue 33%, blue 66.66%, red 66.66%);
+}
+
+.francia{
+	background-image:linear-gradient(90deg,red 33%, white 33%, white 66.66%, blue 66.66%);
+}
+
+.italia{
+	background-image:linear-gradient(90deg, green 33%, white 33%, white 66.66%, red 66.66%);
+}
+
+.alemania{
+	background-image:linear-gradient(black 33%, red 33%, red 66.66%, yellow 66.66%);
+	color:#fff;
+}
+
+.japon{
+	background-image:radial-gradient(circle, red 33%, white 33%, white);
+}
+
+.polonia{
+	background-image:linear-gradient(white 50%, red 50%, red);
+}
+
+.venezuela{
+	background-image:linear-gradient(yellow 45%, blue 40%, blue 75%, red 44.44%);
+}
+
+.costa-rica {
+  background: linear-gradient(
+    to bottom,
+    #002b7f 16.67%, /* azul */
+    #ffffff 16.67% 33.33%, /* blanco */
+    #ce1126 33.33% 66.67%, /* rojo */
+    #ffffff 66.67% 83.33%, /* blanco */
+    #002b7f 83.33% /* azul */
+  );
+}
+
+/* 🇸🇪 Suecia */
+.suecia {
+  background: linear-gradient(
+    to right,
+    #005293 31.25%,   /* azul */
+    #fecb00 31.25% 43.75%, /* amarillo */
+    #005293 43.75%
+  );
+  position: relative;
+}
+.suecia::before,
+.suecia::after {
+  content: "";
+  position: absolute;
+  background: #fecb00;
+}
+/* Cruz vertical */
+.suecia::before {
+  left: 40%;
+  top: 0;
+  width: 20%;
+  height: 100%;
+}
+/* Cruz horizontal */
+.suecia::after {
+  top: 40%;
+  left: 0;
+  width: 100%;
+  height: 20%;
+}
+
+/* 🇨🇺 Cuba */
+.cuba {
+  background:
+    linear-gradient(146deg, #cf142b 25%, transparent 25%) 0 -60px,
+    linear-gradient(34deg, #cf142b 25%, transparent 25%) 0 -60px,
+    linear-gradient(
+      to bottom,
+      #002a8f 20%, #ffffff 20% 40%,
+      #002a8f 40% 60%, #ffffff 60% 80%,
+      #002a8f 80%
+    );
+  background-size: 300px 100px;
+  position: relative;
+}
+.cuba::before {
+  content: "★";
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  top: 46%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+/* 🇮🇪 Irlanda */
+.irlanda {
+  background: linear-gradient(
+    to right,
+    #169b62 33.33%, /* verde */
+    white 33.33% 66.66%, /* blanco */
+    #ff883e 66.66% /* naranja */
+  );
+}
+
